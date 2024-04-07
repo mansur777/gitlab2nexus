@@ -1,4 +1,8 @@
-# This simple script makes one simple task: moves npm packages from private gitlab registry to your Nexus registry
+# This simple script makes one simple task: moves npm packages from a private gitlab registry to your Nexus registry
+### - incredible fast* 
+### - without downloading npm packages to local host
+
+###### *tested on private registry with 4K+ npm packages moved to Nexus
 
 **install dependencies:**
 
@@ -6,7 +10,7 @@
 npm install
 ```
 
-**configure connection related params in move2nexus.js**
+**configure connection related params in gitlab2nexus.js**
 
 ```javascript
 // GitLab connection params
@@ -23,5 +27,5 @@ const nexusPassword = "password"; //sometimes it works as is =)
 **make some coffie and start script:**
 
 ```console
-node move2nexus.js
+node gitlab2nexus.js
 ```
