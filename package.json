@@ -2,7 +2,7 @@
   "name": "gitlab2nexus",
   "version": "1.0.0",
   "description": "Utility to copy packages from gitlab registry to Nexus",
-  "main": "move2nexus.js",
+  "main": "gitlab2nexus.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
